@@ -28,7 +28,7 @@ function Card() {
       <Title count={count} />
       <Count count={count} />
       <ResetButton setCount={setCount} />
-      <CountButtonsContainer setCount={setCount} locked={locked}>
+      <CountButtonsContainer>
         <CountButton setCount={handleMinus} locked={locked}>
           <MinusIcon className="count-btn-icon" />
         </CountButton>
